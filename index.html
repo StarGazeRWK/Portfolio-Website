@@ -1,7 +1,25 @@
+<!--
+  $("#footer").load("footer.html"); 
+-->
+
 <html>
+  <head>
+    <title></title>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+      
+    });
+    </script> 
+    </head>
 
 <body>
-  <?php include 'header.php';?>
+
   <h1>YOUR NAME</h1>
   <p>Welcome to my website!</p>
   <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
